@@ -1,0 +1,9 @@
+8/28/21
+
+This is a simple dice roller that allows you to roll any number of D2, D3, D4, D6, D8, D10, D12, D20, and D100 dice that you wish. 
+It is not coded optimally, I am just practicing while I learn!
+And yes I put it in an infinite loop on purpose! It's fine!
+
+With love,
+Elliot
+
