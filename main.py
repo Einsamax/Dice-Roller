@@ -17,6 +17,8 @@ while rolling:
     print("Which type of dice would you like to roll?")
     sleep(1)
     print("You may select from D2, D3, D4, D6, D8, D10, D12, D20, and D100!")
+    sleep(1)
+    print("You may also type 'exit' to leave the program.")
     dicetype = str(input()) #User enters the type of dice they wish to roll
     dicetotal=0 #Sets and resets the dicetotal to 0
     diceroll=0 #sets and resets the diceroll to 0
@@ -137,6 +139,12 @@ while rolling:
                 sleep(1)
             print("Your total is", dicetotal, "!")  # Once all rolls are complete the sum of all rolls is printed
             sleep(1)
+    elif dicetype == "exit": #Player wishes to close the program
+        sleep(1)
+        print("Thank you for rolling your luck!")
+        sleep(2)
+        rolling = False #exits the while loop
+
     else:
         print("Uh oh! It looks like you entered an invalid dice type!")
         sleep(1)
